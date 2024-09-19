@@ -1,0 +1,53 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      h2.finances-section__title.font-w-bold.font-s-40
+        | Зарабатывайте 
+        br.no-br
+        | на растущем рынке
+      .finances-section__sub-title.font-s-18
+        | Основные цифры по расходам и прибыли
+      .swiper-finances
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-1.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24 1 месяц
+            .font-s-18 понадобится на <br> открытие студии
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-2.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24 940 000 рублей
+            .font-s-18 средний <br> размер вложений
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-3.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24 9 месяцев
+            .font-s-18 средний <br> срок окупаемости
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-4.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24 3 000 000 рублей
+            .font-s-18 средняя <br> ежемесячная выручка
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-5.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24 320 000 рублей
+            .font-s-18 средняя <br> ежемесячная прибыль
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon-6.svg" loading="lazy" width="40" height="40" alt="icon")
+            .finances-section__card-title.font-w-bold.font-s-24 с 3-го месяца
+            .font-s-18 выйдете на запланированный <br> объем продаж
+        .finances-pagination.swiper-progress-finances
+      img.finances-section__img(src="images/finances-section-img.png" loading="lazy" width="1232" height="539" alt="image")
+section.finances-section-bottom
+  .wrapper
+    .finances-section-bottom__container
+      .finances-section-bottom__text.font-w-medium.font-s-18
+        | Хотите получить детальные цифры 
+        br
+        | для вашего города и под ваш бюджет?
+      .font-w-bold.font-s-40.color-white.text-center
+        | Скачайте финансовую модель 
+        br.no-br
+        | франшизы «ARCHITECTOR»
+      form.finances-section-bottom__form(data-feedback-form)
+        input.input.input--secondary(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input.input--secondary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        input.input.input--secondary(type="text" name="email" autocomplete="off" placeholder="E-mail")
+        button.btn(type="submit") Скачать

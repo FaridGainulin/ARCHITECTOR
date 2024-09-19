@@ -1,0 +1,25 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-bold.font-s-40
+        | Зарабатывайте 
+        br.no-br
+        span.color-olive от 320.000 рублей 
+        br.no-br
+        | ежемесячно на 
+        br.no-br
+        | востребованных 
+        br.no-br
+        | услугах по дизайну 
+        br.no-br
+        | и ремонту квартир
+      .main-section__sub-title.font-s-18
+        | Узнайте, как открыть прибыльную студию 
+        br.no-br
+        | по франшизе «ARCHITECTOR» всего за 1 месяц
+      form.main-section__form(data-feedback-form)
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="text" name="email" autocomplete="off" placeholder="E-mail")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Получить план открытия

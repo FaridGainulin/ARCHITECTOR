@@ -1,0 +1,19 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      .city-section__box
+        h2.city-section__title.font-w-bold.font-s-40
+          | Откройте студию дизайна 
+          br.no-br
+          | и ремонта «ARCHITECTOR»
+        .city-section__sub-title.font-w-bold.font-s-24
+          | с чистой прибылью от 
+          span.color-olive 320 000 рублей 
+          | в месяц
+        .city-section__text.font-s-18.color-black Проверьте, свободен ли ваш город для работы
+        form.city-section__form(data-feedback-form)
+          input.input.input--tertiary(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.input--tertiary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          input.input.input--tertiary(type="text" name="email" autocomplete="off" placeholder="E-mail")
+          button.btn(type="submit") Проверить
+      img.city-section__img(src="images/city-section-img.jpg" loading="lazy" width="1169" height="1150" alt="image")

@@ -1,0 +1,71 @@
+.footer
+  &__container
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 8px
+    +above($breakpoints.sm)
+      justify-content space-between
+      flex-direction: row
+
+  &__brand
+    display: flex
+    flex-direction: column
+    gap: 5px
+    +above($breakpoints.md)
+      gap: 8px
+    +above($breakpoints.xxl)
+      gap: 10px
+
+  &__brand-name
+    font-size: 15px
+    line-height: 120%
+    +above($breakpoints.sm)
+      font-size: 16px
+    +above($breakpoints.md)
+      font-size: 17px
+    +above($breakpoints.xxl)
+      font-size: 18px
+
+  &__brand-text
+    display: none
+    +above($breakpoints.sm)
+      display: block
+      font-size: 11px
+      line-height: 120%
+    +above($breakpoints.md)
+      font-size: 13px
+    +above($breakpoints.xxl)
+      line-height: 140%
+      font-size: 14px
+
+  &__privacy
+    text-decoration: underline
+
+  &__connection
+    display: flex
+    justify-content center
+    align-items: center
+    gap: 5px
+    background-color #fff
+    border-radius: 100px
+    padding 8px 10px 8px 13px
+    +above($breakpoints.sm)
+      gap: 10px
+    +above($breakpoints.md)
+      gap: 15px
+    +above($breakpoints.xxl)
+      gap: 20px
+
+  &__connection-icon
+    width 15px
+    height: 15px
+    +above($breakpoints.sm)
+      width 18px
+      height: 18px
+    +above($breakpoints.md)
+      width 22px
+      height: 22px
+    +above($breakpoints.xxl)
+      width 24px
+      height: 24px
